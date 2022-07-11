@@ -27,3 +27,14 @@ puts weights
 puts answers
 puts answers.unshift(false, true, true, false)
 puts answers
+
+=begin
+
+The index position of an element within and Array is where that element falls within
+the array. And with most programming languages, the counting for indexx position
+# starts with the number 0.
+
+Ex.) the food array from above has 5 elements. "Tacos" has an indexx position
+of 0, while "Chicken" has an indexx position of 4.
+
+=end
