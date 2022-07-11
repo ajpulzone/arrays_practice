@@ -8,3 +8,9 @@ answers = [true, false, false, false, true]
 puts food
 puts food.pop
 puts food
+
+# This line of code calls the 'push' method on the food array and adds the contents
+# added within () to the oringinal ages Array
+puts ages
+puts ages.push(1, 2, 3)
+puts ages
