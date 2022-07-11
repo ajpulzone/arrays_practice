@@ -1,9 +1,4 @@
-food = ["Tacos", "Pizza", "Ice Cream", "Pickles", "Salad"]
-amount = [4, 6, 203, 17, 82, 37]
-weights = [13.2, 43.2, 1.7, 18.4, 77.3]
-facts = [true, false, false, true, false]
-
-puts food[3]
-puts amount[0]
-puts weights[2]
-puts facts.pop
+food = ["Tacos", "Pizza", "Ice Cream", "Pickles", "Chicken"]
+ages = [16, 84, 37, 22, 54]
+weights = [110.6, 38.4, 180.9, 215.3, 154.3]
+answers = [true, false, false, false, true]
