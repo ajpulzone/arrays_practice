@@ -38,3 +38,10 @@ Ex.) the food array from above has 5 elements. "Tacos" has an indexx position
 of 0, while "Chicken" has an indexx position of 4.
 
 =end
+
+# This line of code calls the 'reverse!' method on the food Array and relists the
+# elements contained with the food Aray in reverse order -->
+# ["Chicken", "Pickles", "Ice Cream", "Pizza", "Tacos"]
+puts food
+puts food.reverse!
+puts food
