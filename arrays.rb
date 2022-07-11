@@ -20,3 +20,10 @@ puts ages
 puts weights
 puts weights.shift
 puts weights
+
+# This line of code calls the 'unshift' method on the answers Array and adds the
+# elements contained within () to the front of the original Array -->
+# [false, true, true, false, true, false, false, false, true]
+puts answers
+puts answers.unshift(false, true, true, false)
+puts answers
