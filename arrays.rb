@@ -9,8 +9,14 @@ puts food
 puts food.pop
 puts food
 
-# This line of code calls the 'push' method on the food array and adds the contents
-# added within () to the oringinal ages Array
+# This line of code calls the 'push' method on the ages array and adds the elements
+# contained within () to the end of original ages Array --> ["16, 84, 37, 22, 54, 1, 2, 3"]
 puts ages
 puts ages.push(1, 2, 3)
 puts ages
+
+# This line of code calls the 'shift' method on the weights Array and removes the
+# first element within the weights array --> "110.6"
+puts weights
+puts weights.shift
+puts weights
